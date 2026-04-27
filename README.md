@@ -118,7 +118,7 @@ DO NOT call evaluate() on the test set (X_test) during the loop.
 
 | Model | val_AUC | val_F1 | Runtime |
 |-------|---------|--------|---------|
-| RandomForest (balanced, n=100) | 0.70 | 0.39 | ~0.3s |
+| RandomForest (balanced, n=100) | 0.743 | 0.636 | ~0.10s |
 
 **Runtime budget per iteration: < 90 seconds**
 Measured baseline: ~0.3s — well within budget.

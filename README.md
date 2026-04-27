@@ -1,15 +1,15 @@
 # Manga → Anime Adaptation Classifier
 
-Predicts whether a manga will be adapted into an anime using an AutoResearch agent loop.
-Agent iteratively improves an sklearn classification pipeline with a keep/discard workflow.
+- Predicts whether a manga will be adapted into an anime using an AutoResearch agent loop.
+- Agent iteratively improves an sklearn classification pipeline with a keep/discard workflow.
 
 ---
 
 ## Problem
 
-**Task:** Binary classification — will this manga get adapted into an anime?
-**Metric:** Validation ROC-AUC (primary), F1 Score (secondary)
-**Data:** ~400 manga pulled from the MyAnimeList API
+- **Task:** Binary classification — will this manga get adapted into an anime?
+- **Metric:** Validation ROC-AUC (primary), F1 Score (secondary)
+- **Data:** ~400 manga pulled from the MyAnimeList API
 
 **Important — no target leakage:** Features are restricted to information known
 *before* adaptation (genre, magazine, chapter count, start year, media type).
